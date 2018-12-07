@@ -21,14 +21,14 @@ regExps = {
 
 
 cssSelectors = {
-"exercise_1": "css",
-"exercise_2": "css",
-"exercise_3": "css",
-"exercise_4": "css",
-"exercise_5": "css",
-"exercise_6": "css",
-"exercise_7": "css",
-"exercise_8": "css"
+"exercise_1": "item > java.class1",
+"exercise_2": "different > different > .diffClass",
+"exercise_3": "item > java> tag.class1.class2",
+"exercise_4": "css > item:nth-child(3)",
+"exercise_5": "tag > java:nth-child(2)",
+"exercise_6": "item.class1 > item, item.class2 > item",
+"exercise_7": "different#diffId2 > java:nth-child(2)",
+"exercise_8": "css > item#someId"
 };
 
 //"exercise_1": ["3-2"],
