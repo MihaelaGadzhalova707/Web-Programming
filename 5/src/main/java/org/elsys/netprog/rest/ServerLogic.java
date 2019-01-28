@@ -29,7 +29,7 @@ public class ServerLogic {
 	public Response startGame() throws URISyntaxException{
 		
 		return Response.created(new URI("/games")).build();
-		
+		//I just dont know what to do
 	}
 	
 	
